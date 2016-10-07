@@ -1,0 +1,34 @@
+[06-Oct-2016 06:49:02] NOTICE: fpm is running, pid 1
+[06-Oct-2016 06:49:02] NOTICE: ready to handle connections
+[06-Oct-2016 06:49:09] WARNING: [pool www] child 6 said into stderr: "NOTICE: PHP message: PHP Parse error:  syntax error, unexpected 'Hello' (T_STRING) in /var/www/html/hello.php on line 2"
+[06-Oct-2016 06:49:38] WARNING: [pool www] child 6 said into stderr: "NOTICE: PHP message: PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /var/www/html/hello.php on line 3"
+[06-Oct-2016 06:50:52] NOTICE: Terminating ...
+[06-Oct-2016 06:50:52] NOTICE: exiting, bye-bye!
+[06-Oct-2016 06:51:22] NOTICE: fpm is running, pid 1
+[06-Oct-2016 06:51:22] NOTICE: ready to handle connections
+[06-Oct-2016 06:51:25] WARNING: [pool www] child 8 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /var/www/html/hello.php:2"
+[06-Oct-2016 06:51:25] WARNING: [pool www] child 8 said into stderr: "Stack trace:"
+[06-Oct-2016 06:51:25] WARNING: [pool www] child 8 said into stderr: "#0 {main}"
+[06-Oct-2016 06:51:25] WARNING: [pool www] child 8 said into stderr: "  thrown in /var/www/html/hello.php on line 2"
+[06-Oct-2016 06:55:11] NOTICE: Terminating ...
+[06-Oct-2016 06:55:11] NOTICE: exiting, bye-bye!
+[06-Oct-2016 06:55:12] NOTICE: fpm is running, pid 1
+[06-Oct-2016 06:55:12] NOTICE: ready to handle connections
+[06-Oct-2016 06:55:16] WARNING: [pool www] child 7 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in /var/www/html/hello.php:2"
+[06-Oct-2016 06:55:16] WARNING: [pool www] child 7 said into stderr: "Stack trace:"
+[06-Oct-2016 06:55:16] WARNING: [pool www] child 7 said into stderr: "#0 {main}"
+[06-Oct-2016 06:55:16] WARNING: [pool www] child 7 said into stderr: "  thrown in /var/www/html/hello.php on line 2"
+[06-Oct-2016 06:55:54] WARNING: [pool www] child 8 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello.php:2"
+[06-Oct-2016 06:55:54] WARNING: [pool www] child 8 said into stderr: "Stack trace:"
+[06-Oct-2016 06:55:54] WARNING: [pool www] child 8 said into stderr: "#0 {main}"
+[06-Oct-2016 06:55:54] WARNING: [pool www] child 8 said into stderr: "  thrown in /var/www/html/hello.php on line 2"
+[06-Oct-2016 06:59:40] NOTICE: Terminating ...
+[06-Oct-2016 06:59:40] NOTICE: exiting, bye-bye!
+[06-Oct-2016 06:59:41] NOTICE: fpm is running, pid 1
+[06-Oct-2016 06:59:41] NOTICE: ready to handle connections
+[06-Oct-2016 07:00:01] WARNING: [pool www] child 6 said into stderr: "NOTICE: PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /var/www/html/hello.php:2"
+[06-Oct-2016 07:00:01] WARNING: [pool www] child 6 said into stderr: "Stack trace:"
+[06-Oct-2016 07:00:01] WARNING: [pool www] child 6 said into stderr: "#0 {main}"
+[06-Oct-2016 07:00:01] WARNING: [pool www] child 6 said into stderr: "  thrown in /var/www/html/hello.php on line 2"
+[06-Oct-2016 07:08:19] NOTICE: Terminating ...
+[06-Oct-2016 07:08:19] NOTICE: exiting, bye-bye!
