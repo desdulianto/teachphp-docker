@@ -13,3 +13,17 @@ Membentuk 4 buah container pada network tersendiri, yaitu:
 
 network:
 - teaching - network mandiri untuk konfigurasi container docker ini
+
+Persyaratan:
+- docker engine
+- docker compose
+
+Cara pakai:
+- edit terlebih dahulu docker-compose.yml
+- perhatikan konfigurasi volume
+- buat directory yang dibutuhkan sesuai dengan volume yang didefiniskan di
+  docker-compose (minimal butuh directory logs dan public_html)
+- jalankan perintah docker-compose up untuk membangunkan mengaktifkan seluruh
+  container
+- akses web melalui http://localhost
+- akses phpmyadmin melalui http://localhost:8080
