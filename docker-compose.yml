@@ -17,8 +17,9 @@ services:
             - teaching
 
     backend:
-        #image: desdulianto/php:fpm-mysql
         build: .
+        labels:
+            com.desdulianto.description: "php-fpm dengan tambahan module mysql"
         ports:
             - "9000:9000"
         volumes:
