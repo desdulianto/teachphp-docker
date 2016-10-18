@@ -46,6 +46,8 @@ services:
             - teaching
 
     phpmyadmin:
+        labels:
+            com.desdulianto.description: "rdbms mysql"
         image: phpmyadmin/phpmyadmin
         ports:
             - "8080:80"
