@@ -29,11 +29,14 @@ services:
             - teaching
     
     db:
+        labels:
+            com.desdulianto.description: "database backend"
         image: mysql
         ports:
             - "3306:3306"
         volumes:
             - ./db:/var/lib/mysql
+            - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
         environment:
             MYSQL_DATABASE: web
             MYSQL_USER: web
