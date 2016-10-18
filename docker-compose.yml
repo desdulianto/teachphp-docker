@@ -2,7 +2,9 @@ version: '2'
 
 services:
     frontend:
-        image: nginx
+        labels:
+            com.desdulianto.description: "nginx frontend"
+        image: nginx:alpine
         ports:
             - "80:80"
             - "443:443"
